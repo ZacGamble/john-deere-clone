@@ -1,0 +1,87 @@
+:root{
+    background-color: --primary(#d5d5d5);
+}
+
+/* *{
+    border: 1px solid black;
+} */
+
+.deere-logo{
+    height: 48px;
+}
+img{
+    max-width: 100%!important;
+}
+.quicktool img{
+    height: 50px;
+    width: 50px;
+}
+
+body{
+    background-color: var(--primary);
+}
+#advancing{
+    max-width: 400px;
+    justify-content: center;
+    position: absolute;
+    transform: translate(0, 200px);
+}
+
+h4{
+    text-align: center;
+}
+
+.hero{   
+    background-image: url(https://www.deere.com/assets/images/common/home-page/sus-hero-1366x347.jpg);
+    background-size: cover;
+    
+}
+
+#hero-row{
+    height: 40vh;
+    position: relative;
+}
+
+.wrapper{
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+} 
+
+.grid-mass{
+    height: 400px;
+}
+
+.grid-spacing{
+    padding: 0 20px 0 20px;
+    margin: 0px;
+}
+
+.grid-1{
+    background-image: url(https://www.deere.com/assets/images/common/home-page/ultimate-632-x-384.jpg);
+    background-size: cover;
+}
+
+.z-low{
+    z-index: -1;
+}
+
+.spill{
+    top: 200px;
+    left: 30px;
+}
+
+.grid-2{
+    background-image: url(https://www.deere.com/assets/images/common/home-page/run-with-us-image-panel-632x384.jpg);
+    background-size: cover;
+}
+
+.grid-3{
+    background-image: url(https://www.deere.com/assets/images/common/home-page/350-p-tier-excavator-632x384.jpg);
+    background-size: cover;
+}
+
+.grid-4{
+    background-image: url(https://www.deere.com/assets/images/common/home-page/loader-technician-632x384.jpg);
+    background-size: cover;
+}
